@@ -34,7 +34,7 @@ let test_fp2() =
     printfn "xy1: %s\n %s" getxy getModel
     exit 0
 ```
--Result
+- Result
 ```
 xy1: (= x_op_y
    (fp.div roundTowardZero
