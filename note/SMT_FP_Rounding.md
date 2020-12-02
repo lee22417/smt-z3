@@ -9,7 +9,7 @@
   - roundNearestTiesToAway
  
   
-- Code 
+- Code Example
 ```
 (set-logic QF_FP)
 
@@ -27,7 +27,7 @@
 (get-value (x y r))
 ```
 
--Result
+- Result Example
 ```
 C    -> 3f fe d1 74 5d 17 45 d1 69 c8 fd e2 61 52 83 6a 
 SMT  -> 3f fe d1 74 5d 17 45 d1 69 c8 fd e2 61 52 83 69 (roundTowardZero)
