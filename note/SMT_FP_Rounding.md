@@ -10,7 +10,7 @@
  
   
 - Code Example
-x = 1.0, y = 1.1
+  - x = 1.0, y = 1.1
 ```
 (set-logic QF_FP)
 
