@@ -37,17 +37,6 @@ let rec test_fp() =
     let sort = Native.Z3_mk_fpa_sort_128(ctx.obj)    // 128 bit
     let sort2 = Native.Z3_mk_fpa_sort(ctx.obj,15u,65u) // 80 bit    
     
-    // 80 bit
-    let a1 = Native.Z3_mk_numeral(ctx.obj, "0", Native.Z3_mk_bv_sort(ctx.obj, 1u))
-    let b1 = Native.Z3_mk_numeral(ctx.obj, "16383", Native.Z3_mk_bv_sort(ctx.obj, 15u))
-    let c1 = Native.Z3_mk_numeral(ctx.obj, "9223372036854775808", Native.Z3_mk_bv_sort(ctx.obj, 64u))
-    let x1 = Native.Z3_mk_fpa_fp(ctx.obj, a1, b1, c1)
-    
-    let a2 = Native.Z3_mk_numeral(ctx.obj, "0", Native.Z3_mk_bv_sort(ctx.obj, 1u))
-    let b2 = Native.Z3_mk_numeral(ctx.obj, "16383", Native.Z3_mk_bv_sort(ctx.obj, 15u))
-    let c2 = Native.Z3_mk_numeral(ctx.obj, "10145709240540254208", Native.Z3_mk_bv_sort(ctx.obj, 64u))
-    let y1 = Native.Z3_mk_fpa_fp(ctx.obj, a2, b2, c2)
-    
     // 128 bit
     let a3 = Native.Z3_mk_numeral(ctx.obj, "0", Native.Z3_mk_bv_sort(ctx.obj, 1u))
     let b3 = Native.Z3_mk_numeral(ctx.obj, "16383", Native.Z3_mk_bv_sort(ctx.obj, 15u))
