@@ -10,6 +10,7 @@
  
   
 - Code Example
+x = 1.0, y = 1.1
 ```
 (set-logic QF_FP)
 
@@ -29,7 +30,7 @@
 
 - Result Example
 ```
-C    -> 3f fe d1 74 5d 17 45 d1 69 c8 fd e2 61 52 83 6a 
+C    -> 3f fe d1 74 5d 17 45 d1 69 c8 fd e2 61 52 83 6a (= 1.0/1.1)
 SMT  -> 3f fe d1 74 5d 17 45 d1 69 c8 fd e2 61 52 83 69 (roundTowardZero)
         3f fe d1 74 5d 17 45 d1 69 c8 fd e2 61 52 83 6a (roundTowardPositive)
         3f fe d1 74 5d 17 45 d1 69 c8 fd e2 61 52 83 69 (roundTowardNegative)
