@@ -70,7 +70,7 @@ r = #b0 #b011111111111111 #x0c cc cc cc cc cc d0 00
   = 3f ff 0c cc cc cc cc cc d0 00
 r + (0x8000000000000000)
   = 3f ff 8c cc cc cc cc cc d0 00
-  = which is the same with 1.1 in C
+  = which is the same as 1.1 in C
 ```
 
 # Reference
