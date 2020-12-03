@@ -40,6 +40,8 @@ r = 40 00 29 99 99 99 99 99 9c 00
 ```
 
 ### Case 2 (Correct):
+- Implicit integer significand bit
+- SMT-LIB floating point theory only being able to represent IEEE 754 classes
 - Create FP 79bit
 - Remove Integer Part (63bit, the first bit in fraction)
   - x = 3F FF | 00 00 00 00 00 00 00 00
