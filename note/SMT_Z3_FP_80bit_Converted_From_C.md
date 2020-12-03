@@ -66,9 +66,9 @@ r = 40 00 29 99 99 99 99 99 9c 00
 ```
 - Result
 ```
-r = #b0 #b011111111111111 #x0c cc cc cc cc cc d0 00
+r = #b0 #b011111111111111 #b110100010111010001011101000101110100010111010001011010011100100
   = 3f ff 0c cc cc cc cc cc d0 00
-r + (0x8000000000000000)
+r add Integer Part (1 in front of fraction)
   = 3f ff 8c cc cc cc cc cc d0 00
   = which is the same as 1.1 in C
 ```
