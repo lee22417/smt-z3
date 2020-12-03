@@ -41,8 +41,9 @@ r = 40 00 29 99 99 99 99 99 9c 00
 
 ### Case 2 (Correct):
 - Create FP 79bit
-  - x - (0x8000000000000000) = 3F FF | 00 00 00 00 00 00 00 00
-  - y - (0x8000000000000000) = 3f ff | 0c cc cc cc cc cc d0 00
+- Remove Integer Part (63bit, the first bit in fraction)
+  - x = 3F FF | 00 00 00 00 00 00 00 00
+  - y = 3f ff | 0c cc cc cc cc cc d0 00
 - r = x * y (1.0 * 1.1)
 - Code
 ```
