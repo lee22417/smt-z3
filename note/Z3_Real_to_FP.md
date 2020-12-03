@@ -8,7 +8,7 @@ let test_fp2() =
     let rm = Native.Z3_mk_fpa_round_toward_zero(ctx.obj)
     
     let sort = Native.Z3_mk_fpa_sort_128(ctx.obj)    // 128 bit
-    let sort2 = Native.Z3_mk_fpa_sort(ctx.obj,15u,65u) // 80 bit    
+    let sort2 = Native.Z3_mk_fpa_sort(ctx.obj,15u,64u) // 80 bit    
     
     // 128 bit
     // real to fp
