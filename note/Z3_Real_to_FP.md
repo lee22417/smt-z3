@@ -40,7 +40,7 @@ let test_fp() = // real to fp
     exit 0
 
 ```
-- Result
+- Result (80bit case)
 ```
 xy1: (= x_op_y
    (fp.div roundTowardZero
