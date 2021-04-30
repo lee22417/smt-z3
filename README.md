@@ -1,4 +1,4 @@
-# SZ-ipper
+# smt-z3
 SMT-LIB &amp; Z3
 
 # Env & Tools
