@@ -1,7 +1,7 @@
-# smt-z3
+## smt-z3
 SMT-LIB &amp; Z3
 
-# Env & Tools
+## Env & Tools
 - Ubunto 20
 - C, Clang, Visual Studio Code
 - SMT LIB, Terminal
